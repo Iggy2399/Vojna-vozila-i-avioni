@@ -1,0 +1,75 @@
+body{
+  background-image: url('/camo-b4jyfziypywrtbbz.jpg');
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+.slike{
+  box-shadow: 10px 5px 5px rgb(71, 1, 1);
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+
+}
+.slike :hover{
+  scale: 1.1;
+  transition: 0.3s;
+
+}
+.navbar {
+  display: flex;
+  margin: 1%;
+  justify-content: left;
+  background-color: #46464600;
+  
+}
+.list {
+  justify-content: space-between;
+  display: flex;
+  color: rgb(255, 255, 255);
+ 
+}
+.list a{
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.list a:hover{
+  background-color: rgb(26, 56, 8);
+}
+h1{
+  color: rgba(240, 248, 255, 0.699);
+}
+.break {
+  color: #353025;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: row;
+  
+ 
+}
+.container img{
+  display: flex;
+  background-color: rgba(207, 196, 32, 0.027);
+  width: 25rem;
+  margin-bottom: 0rem;
+  transition: 0.3s;
+  border-radius: 1rem;
+ 
+}
+
+h3{
+  justify-content: center;
+  display: flex;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
