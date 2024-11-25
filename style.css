@@ -1,22 +1,41 @@
+@font-face {
+  font-family: GunPlay;
+  src: url(assets/Font/gunplay\ rg.otf);
+}
+
 body{
-  background-image: url('/camo-b4jyfziypywrtbbz.jpg');
+  background-image: url('assets/camo-b4jyfziypywrtbbz.jpg');
   margin: 0;
   padding: 0;
   display: grid;
 }
 .slike{
-  box-shadow: 10px 5px 5px rgb(71, 1, 1);
-  background-color: rgb(255, 255, 255);
+  box-shadow: 10px, 10px, 10px rgb(56, 55, 55);
   margin-top: 1rem;
   margin-right: 1rem;
   margin-left: 1rem;
   border-radius: 1rem;
-
+  transition: 0.3s;
+  size: 250px;
+  
 }
-.slike :hover{
+.slike:hover{
   scale: 1.1;
   transition: 0.3s;
+  
+}
+h3{
+  justify-content: center;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: GunPlay;
+  font-size: x-large;
+  
+}
 
+.nacije{
+  justify-content: center;
+  width: 25rem;
 }
 .navbar {
   display: flex;
@@ -53,23 +72,7 @@ h1{
   margin: 2rem;
   flex-direction: row;
   
- 
-}
-.container img{
-  display: flex;
-  background-color: rgba(207, 196, 32, 0.027);
-  width: 25rem;
-  margin-bottom: 0rem;
-  transition: 0.3s;
-  border-radius: 1rem;
+  
  
 }
 
-h3{
-  justify-content: center;
-  display: flex;
-  border-radius: 0.5rem;
-  transition: 0.3s;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-}
