@@ -4,7 +4,7 @@
   }
   
   body{
-    background-image: url('assets/Nacije/us-army-multicam-wallpaper-0tmqolviyebewkww.jpg');
+    background-color: rgb(16, 17, 27);
     
     background-size: 100%;
     margin: 0;
@@ -17,6 +17,7 @@
     margin-right: 2%;
     margin-left: 2%;
     transition: 0.2s;
+    
     
   }
   .slike:hover{
@@ -37,6 +38,7 @@
     justify-content: center;
     width: 350px;
     height: 200px;
+    
   }
   .navbar {
     display: flex;
@@ -73,6 +75,7 @@
     align-items: center;
     margin: 2rem;
     flex-direction: row;
+    
   
   }
   @media (max-width: 600px){
