@@ -1,6 +1,6 @@
 @font-face {
     font-family: GunPlay;
-    src: url(assets/Font/gunplay\ rg.otf);
+    src: url(../assets/Font/gunplay\ rg.otf);
   }
   
   body{
@@ -12,21 +12,16 @@
     display: grid;
   }
   .slike{
-    
     margin-top: 4%;
     margin-right: 2%;
     margin-left: 2%;
-    transition: 0.2s;
     box-shadow: 5px 5px 5px  rgb(104, 103, 103);
     border-radius: 1rem;
-    
-    
-  }
-  .slike:hover{
-    scale: 1.1;
-    transition: 0.3s;
+    overflow: hidden;
+    transition: 0.2s;
     
   }
+  
   h3{
     justify-content: center;
     display: flex;
@@ -36,13 +31,20 @@
     
   }
   
-  .nacije{
+  .slike img{
     justify-content: center;
     width: 350px;
     height: 240px;
     border-radius: 1rem;
+    display: block;
+    transition: 0.2s;
     
   }
+  .slike:hover img{
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+ 
   .navbar {
     display: flex;
     margin: 1%;
@@ -78,6 +80,7 @@
     align-items: center;
     margin: 2rem;
     flex-direction: row;
+    
     
   
   }
