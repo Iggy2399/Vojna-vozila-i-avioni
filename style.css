@@ -16,7 +16,7 @@ body{
   margin-left: 1rem;
   border-radius: 1rem;
   transition: 0.3s;
-  size: 250px;
+  
   
 }
 .slike:hover{
@@ -35,7 +35,8 @@ h3{
 
 .nacije{
   justify-content: center;
-  width: 25rem;
+  width: 350px;
+  height: 200px;
 }
 .navbar {
   display: flex;
@@ -67,12 +68,11 @@ h1{
 
 .container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 2rem;
   flex-direction: row;
-  
-  
- 
+
 }
 
