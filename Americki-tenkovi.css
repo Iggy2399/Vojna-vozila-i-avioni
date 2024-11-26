@@ -78,18 +78,5 @@
     
   
   }
-  @media (max-width: 600px){
-    .container{
-      width: 50%;
-    }
-    .slike{
-      width: 70%;
-    }
-    .nacije{
-      width: 70%;
-      height: 70%;
-    }
-  
-  }
-  
+ 
   
