@@ -20,6 +20,7 @@ body{
   margin-top: 2%;
   margin-right: 2%;
   margin-left: 2%;
+  margin-bottom: 2%;
   transition: 0.2s;
   
   
@@ -64,7 +65,8 @@ h3{
   color: white;
 }
 .list a:hover{
-  background-color: rgb(26, 56, 8);
+  background-color: rgb(1, 27, 77);
+  border-radius: 0.5rem;
 }
 h1{
   color: rgba(240, 248, 255, 0.699);
@@ -78,8 +80,8 @@ h1{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
   flex-direction: row;
+  
   
 
 }
