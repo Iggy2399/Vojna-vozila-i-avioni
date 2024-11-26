@@ -1,0 +1,92 @@
+@font-face {
+    font-family: GunPlay;
+    src: url(assets/Font/gunplay\ rg.otf);
+  }
+  
+  body{
+    background-image: url('assets/Nacije/us-army-multicam-wallpaper-0tmqolviyebewkww.jpg');
+    
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+  }
+  .slike{
+    
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transition: 0.2s;
+    
+  }
+  .slike:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    
+  }
+  h3{
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: GunPlay;
+    font-size: x-large;
+    
+  }
+  
+  .nacije{
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+  }
+  .navbar {
+    display: flex;
+    margin: 1%;
+    justify-content: left;
+    background-color: #46464600;
+    
+  }
+  .list {
+    justify-content: space-between;
+    display: flex;
+    color: rgb(255, 255, 255);
+   
+  }
+  .list a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  .list a:hover{
+    background-color: rgb(26, 56, 8);
+  }
+  h1{
+    color: rgba(240, 248, 255, 0.699);
+  }
+  .break {
+    color: #353025;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    flex-direction: row;
+  
+  }
+  @media (max-width: 600px){
+    .container{
+      width: 50%;
+    }
+    .slike{
+      width: 70%;
+    }
+    .nacije{
+      width: 70%;
+      height: 70%;
+    }
+  
+  }
+  
+  
