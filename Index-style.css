@@ -3,6 +3,11 @@
   src: url(assets/Font/gunplay\ rg.otf);
 }
 
+img{
+  max-width: 100%;
+  display: block;
+}
+
 body{
   background-image: url('assets/camo-b4jyfziypywrtbbz.jpg');
   margin: 0;
@@ -73,17 +78,5 @@ h1{
   flex-direction: row;
 
 }
-@media (max-width: 600px){
-  .container{
-    
-    flex-direction: column;
-    width: 80%;
-  }
-  .nacije{
-    width: 80%;
-    height: 70%;
-  }
 
-
-}
 
