@@ -10,13 +10,11 @@ body{
   display: grid;
 }
 .slike{
-  box-shadow: 10px, 10px, 10px rgb(56, 55, 55);
-  margin-top: 1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  border-radius: 1rem;
-  transition: 0.3s;
   
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  transition: 0.2s;
   
 }
 .slike:hover{
