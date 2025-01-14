@@ -1,6 +1,6 @@
 @font-face {
   font-family: GunPlay;
-  src: url(assets/Font/gunplay\ rg.otf);
+  src: url('../assets/Font/gunplay\ rg.otf');
 }
 
 img{
@@ -10,7 +10,7 @@ img{
 }
 
 body{
-  background-image: url('assets/camo-b4jyfziypywrtbbz.jpg');
+  background-image: url('../assets/camo-b4jyfziypywrtbbz.jpg');
   margin: 0;
   padding: 0;
   display: grid;

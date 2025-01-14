@@ -1,1 +1,38 @@
-/node_modules
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Babel cache
+/.babel-cache/
+
+# Webpack cache
+/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db         # Windows
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript (if used)
+*.tsbuildinfo
+
+# Misc
+*.log
